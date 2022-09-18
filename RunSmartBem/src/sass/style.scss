@@ -4,11 +4,11 @@
 @import 'block/buttons';
 @import 'block/advantages';
 @import 'block/media';
-
+@import 'base/mixins';
 * {
-	font-family: 'MuseoModerno', sans-serif;
+	font-family: 'MuseoModerno';
 }
-
+ 
 .container {
 	max-width: 950px;
 	margin: 0 auto;
