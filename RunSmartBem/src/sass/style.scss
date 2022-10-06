@@ -1,9 +1,5 @@
 @import 'base/variables';
-@import 'block/promo';
-@import 'block/header';
-@import 'block/buttons';
-@import 'block/advantages';
-@import 'base/mixins';
+
 
 * {
 	font-family: 'MuseoModerno', sans-serif;
@@ -12,5 +8,13 @@
 .container {
 	max-width: 950px;
 	margin: 0 auto;
+	
 }
+@import 'block/promo';
+@import 'block/header';
+@import 'block/buttons';
+@import 'block/advantages';
+@import 'base/mixins';
 @import 'block/media';
+@import 'block/consultation';
+@import 'block/title';
